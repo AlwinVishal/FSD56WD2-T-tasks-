@@ -6,7 +6,7 @@ let sortedObj2 = Object.entries(obj2).sort();
 
  function compare() {
     if(JSON.stringify(sortedObj1)===JSON.stringify(sortedObj2)){
-        console.log("true")
+        console.log(true)
     }
 }
 
